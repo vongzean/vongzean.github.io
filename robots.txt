@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://tianqingxiaozhu.com/sitemap.xml
+Sitemap: https://vongzean.me/sitemap.xml
