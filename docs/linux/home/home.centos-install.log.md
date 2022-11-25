@@ -23,7 +23,7 @@ tag:
   - 使用最小化安装方式
   - 192.168.124.150
   - root / root1003
-  - zeanzai / tianqingxiaozhu.com1003
+  - zeanzai / vongzean.me1003
 
 - 初始化操作
   - 重装系统但是沿用之前的ip，因此登录时报错，使用 ssh-keygen -R {ip} 命令删除该ip的指纹，然后再次登录即可
@@ -59,8 +59,8 @@ tag:
 - ~~gitlab-ce-14.0.0-ce.0.el7.x86_64.rpm(已卸载)~~
   - 8888
   - zeanzai
-  - tianqingxiaozhu.com1003
-  - tianqingxiaozhu.com@gmail.com
+  - vongzean.me1003
+  - vongzean.me@gmail.com
 
 - mysql-5.7.34（自启动）
   - 端口： 3306

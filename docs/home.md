@@ -30,7 +30,7 @@ title: 关于我
 
 *小学三年级学生则安，无意中发现自己的日记被偷看了，他就开始写明天日记，因为明天还没来，不知道会发生什么事情，所以被偷看也没关系。之后明天日记实现了，实现则安写的“晴天下猪”，最后则安把日记擦掉，世界才恢复原来的样子，可是还有一只小猪没回去，则安将它养在家里，给他取了个名字叫：“晴天小猪”。它是从外星王国来到地球的小猪，不但机灵可爱，而且拥有一种特异功能，将则安各种各样的想法变成现实。它拥有神奇超能的力量，帮则安、家人和朋友解决了许多问题，并带来了好多有趣的事情，带给他们无尽的欢乐，以及胆量、勇气和知识的增长……*
 
-我把这部动画片中的晴天小猪改动了一下，变成了现在的[天晴小猪](https://tianqingxiaozhu.com)。
+我把这部动画片中的晴天小猪改动了一下，变成了现在的[天晴小猪](https://vongzean.me)。
 
 **<h6>我希望自己能够像则安一样不断的梦想，又希望自己像晴天小猪一样把则安的梦想变成现实。</h6>**
 
@@ -137,7 +137,7 @@ export PATH=$PATH:$MAVEN_HOME/bin:$HUGO_HOME:$FFMPEG_HOME/bin
   <!-- 指定要运行的脚本 -->
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/shawnwang/Documents/Source/github/tianqingxiaozhu.com/deploy.sh</string>
+    <string>/Users/shawnwang/Documents/Source/github/vongzean.me/deploy.sh</string>
     <string>timer-commit</string>
   </array>
   

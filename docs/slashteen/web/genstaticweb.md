@@ -21,7 +21,7 @@ tag:
 
 ## 3. 规划
 
-已经有一个个人网站了， https://tianqingxiaozhu.com ，现在把项目放到 https://tianqingxiaozhu.com/vpblog 下。因此，我们现在GitHub上创建一个空仓库。
+已经有一个个人网站了， https://vongzean.me ，现在把项目放到 https://vongzean.me/vpblog 下。因此，我们现在GitHub上创建一个空仓库。
 
 此外，这个仓库还引用了GitHub用来自动集成的工作流，想要实现只要提交了代码，就自动发布到对应分支、并完成网站部署的功能。
 
@@ -105,7 +105,7 @@ yarn install
 
 ### 5.5. 修改网站配置文件
 
-由于要把项目放到 https://tianqingxiaozhu.com/vpblog 这个路径下，因此要修改 config.ts 中配置：
+由于要把项目放到 https://vongzean.me/vpblog 这个路径下，因此要修改 config.ts 中配置：
 
 ```
 // 根路径，即url上都会加上这个

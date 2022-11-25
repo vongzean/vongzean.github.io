@@ -40,7 +40,7 @@ mysql.slave01:
 - 创建具有全部权限的admin用户：`admin@2019!@#`
 - 【optional】为root用户设置远程登录权限
 
-> 参考文档： https://tianqingxiaozhu.com/Java-Linux/#/markdown/install-mysql
+> 参考文档： https://vongzean.me/Java-Linux/#/markdown/install-mysql
 
 
 ### 1.3. 测试连通性

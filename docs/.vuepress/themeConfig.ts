@@ -3,18 +3,18 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default defineThemeConfig({
-  hostname: "https://tianqingxiaozhu.com",
+  hostname: "https://vongzean.me",
 
   author: {
     name: "天晴小猪",
-    url: "https://tianqingxiaozhu.com",
+    url: "https://vongzean.me",
   },
 
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.JPG",
 
-  repo: "tianqingxiaozhu/tianqingxiaozhu.github.io",
+  repo: "vongzean/vongzean.github.io",
 
   docsDir: "docs",
 
@@ -59,10 +59,10 @@ export default defineThemeConfig({
     // Using giscus
     comment: {
       type: "giscus",
-      repo: "tianqingxiaozhu/tianqingxiaozhu.github.io",
-      repoId: "R_kgDOIRd0Lg",
+      repo: "vongzean/vongzean.github.io",
+      repoId: "R_kgDOIf9ChQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOIRd0Ls4CSHFX",
+      categoryId: "DIC_kwDOIf9Chc4CSwDh",
     },
 
     mdEnhance: {
