@@ -1,5 +1,5 @@
 ---
-title: "分布式服务配置"
+title: "分布式服务配置之nacos"
 category:
   - "springcloud-alibaba"
 tag:
@@ -24,13 +24,13 @@ tag:
 
 早期，配置中心的主要功能特性是管理配置，但随着技术的发展和业务的需求，加上程序员极致热情，配置中心有多了一些权限管理、实时更新、版本管理、灰度管理、安全配置等一系列的高级特性。
 
-目前，Java领域的配置中心大概有这么几种： Nacos、ZK、Apollo、SpringCloud-Config等。关于不同技术类型的选择方法，参见《00.前言》，这里不再赘述，本篇文章，主要介绍一下nacos相关内容。
+目前，Java领域的配置中心大概有这么几种： Nacos、ZK、Apollo、SpringCloud-Config等。关于不同技术类型的选择方法，参见《[你真的会做技术选型吗？](https://mp.weixin.qq.com/s/AUHY3nKZqDbAhkfebOPWCg)》，这里不再赘述，本篇文章，主要介绍一下nacos相关内容。
 
 ## Nacos相关概念
 
 > 微信扫码关注“天晴小猪”（ID： it-come-true），回复“springcloud”，获取本章节实战源码。
 
-关于nacos服务的搭建过程，请参考：《01.服务治理之Nacos》，这里不再赘述。Nacos有几个重要的概念：
+关于nacos服务的搭建过程，请参考笔者系列文章的《分布式服务治理之Nacos》章节，这里不再赘述。Nacos有几个重要的概念：
 
 - Data ID ：配置项的唯一标识，可以理解为一个配置文件，它的命名格式是： `${prefix}-${spring.profiles.active}.${file-extension}`， 其中prefix为前缀，默认是 spring.application.name 的值，当然也可以通过 spring.cloud.nacos.config.prefix 来进行配置；spring.profiles.active为项目生效的profile的名称，这个值和前面的短横杠为空时，DataID变成 `${prefix}-${spring.profiles.active}.${file-extension}`，这种方式也是合法的；file-exetension表示配置文件的格式，目前只支持 `properties` 和 `yaml` 类型；
 - 命名空间
@@ -83,7 +83,6 @@ Nacos的接入也分成三个步骤：
 Nacos作为注册中心，完全替代了原有的配置文件，因此需要使用更高级别的配置文件，即 bootstrap 的配置文件，因此nacos的配置内容需要在 bootstrap.yml 文件中完成。
 
 ![配置nacos相关信息](https://tianqingxiaozhu.oss-cn-shenzhen.aliyuncs.com/blog20221115111039.png)
-
 
 3. 直接使用
 

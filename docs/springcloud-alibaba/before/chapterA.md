@@ -43,7 +43,9 @@ tag:
 
 技术选型后下一步就是要确定组件的版本，版本的选择标准就只有一个——选择稳定发布并长期维护的版本，因为稳定发布版本不会有重大的漏洞，版本更新也是稳定发布长期维护的。比如，现在jdk的版本已经到17了，但是大多数厂商依然用的还是jdk8，就是因为jdk8是稳定发布并长期维护的。
 
+## 特别说明
 
+选定组件的类型以及版本后，就需要确定一种统一管理版本的方式。在SpringCloud微服务实践过程中，我们一般采用自定义starter的形式来统一管理所依赖的所有组件的版本信息，详情见[如何在SpringCloud项目中统一管理依赖的版本？](https://mp.weixin.qq.com/s/uckNTewC0xms1VeXRkQ43g)。
 
 <img style="border:1px red solid; display:block; margin:0 auto;" :src="$withBase('/qrcode.jpg')" alt="微信公众号" />
 

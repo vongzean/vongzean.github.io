@@ -2,11 +2,11 @@
 home: true
 # layout: Blog
 icon: home
-title: 🐶天晴小猪🐷
+title: 天晴小猪
 heroImage: /logo.JPG
-heroText: 🐶天晴小猪🐷
+heroText: 天晴小猪
 # heroFullScreen: true
-tagline: 🤡励志成为Java中文领域内辅助资料的“卷王🤓”，以DDD面向领域思想对Java程序员的求职之路进行建模，包含“软硬实力”、“不同业务领域”、“不同职责范围”等丰富内容，以求达到“最佳薪资”的职业理想。😍
+tagline: 浪漫骑士的二流键盘，微信公众号： it-come-true。
 # projects:
 #   - icon: project
 #     name: 项目名称
@@ -153,7 +153,7 @@ tagline: 🤡励志成为Java中文领域内辅助资料的“卷王🤓”，�
 
 ## 参与贡献
 
-如果你在阅读时发现有些地方有误，也欢迎提[issue](https://github.com/zeanzai/zeanzai.github.io/issues)。
+如果你在阅读时发现有些地方有误，也欢迎提[issue](https://github.com/vongzean/vongzean.github.io/issues)。
 
 当然也非常欢迎你的贡献：
 

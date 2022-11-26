@@ -1,5 +1,5 @@
 ---
-title: "分布式远程服务调用"
+title: "服务调用之OpenFeign"
 category:
   - "springcloud-alibaba"
 tag:
@@ -19,7 +19,7 @@ tag:
 
 ## 技术选型
 
-OpenFeign是SpringCloud官方提供的远程服务调用的组件，我们“别无选择”，就它了。需要注意的是，SpringCloud还提供了RestTemplate组件，也可以完成远程服务调用。关于RestTemplate方式调用和OpenFeign方式的简单调用，也可以参考[服务治理之Nacos](chapter01.md)章节进行查阅。
+OpenFeign是SpringCloud官方提供的远程服务调用的组件，我们“别无选择”，就它了。需要注意的是，SpringCloud还提供了RestTemplate组件，也可以完成远程服务调用。关于RestTemplate方式调用和OpenFeign方式的简单调用，也可以参考笔者的系列文章的《服务治理之Nacos》章节进行查阅。
 
 ## 功能实践
 
