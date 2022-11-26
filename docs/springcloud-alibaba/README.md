@@ -193,4 +193,11 @@ systemctl restart docker
 
 ---
 
+## 微信文章列表
+
+- [你真的会做技术选型吗？](https://mp.weixin.qq.com/s/AUHY3nKZqDbAhkfebOPWCg)
+- [如何在SpringCloud项目中统一管理依赖的版本？](https://mp.weixin.qq.com/s/uckNTewC0xms1VeXRkQ43g)
+- [分布式服务配置之nacos](https://mp.weixin.qq.com/s/4Sh9lYxw-OFGXhJyP7PCgA)
+
+
 <img style="border:1px red solid; display:block; margin:0 auto;" :src="$withBase('/qrcode.jpg')" alt="微信公众号" />

@@ -1,5 +1,5 @@
 ---
-title: "分布式服务网关"
+title: "分布式服务网关之Gateway"
 category:
   - "springcloud-alibaba"
 tag:
@@ -36,7 +36,7 @@ tag:
 
 ## 技术选型
 
-物理网关我们暂且不表，后端服务中常见的可以作为网关服务的组件，主要根据所使用的编程语言不同进行区分。常见的有Go的etcd，Java中的Zuul、Gateway等。这里我们不再详细描述技术选型，有兴趣的可以查阅[首页](./README.md)中技术选型章节。
+物理网关我们暂且不表，后端服务中常见的可以作为网关服务的组件，主要根据所使用的编程语言不同进行区分。常见的有Go的etcd，Java中的Zuul、Gateway等。这里我们不再详细描述技术选型，有兴趣的可以查阅《[你真的会做技术选型吗？](https://mp.weixin.qq.com/s/AUHY3nKZqDbAhkfebOPWCg)》。
 
 ## SpringCloud-Gateway实战
 

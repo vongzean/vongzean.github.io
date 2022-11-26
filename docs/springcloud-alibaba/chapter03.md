@@ -1,5 +1,5 @@
 ---
-title: "服务调用之OpenFeign"
+title: "分布式服务调用之OpenFeign"
 category:
   - "springcloud-alibaba"
 tag:

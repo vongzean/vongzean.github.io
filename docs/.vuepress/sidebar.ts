@@ -164,6 +164,7 @@ export default defineSidebarConfig({
       prefix: "cscore/",
       children: [
         { text: "计算机网络", link: "network.md" },
+        { text: "深入理解计算机网络加解密", link: "encrypt-decrypt.md" },
         {
           text: "数据结构与算法",
           collapsable: true,
@@ -521,6 +522,10 @@ export default defineSidebarConfig({
 
   // 网站建设 done
   "/slashteen/web/": [
+    {
+      text: "程序员如何打造自己的个人IP？",
+      link: "myip.md",
+    },
     {
       text: "个人网站搭建",
       icon: "alias",
